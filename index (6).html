@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Abinayavalli C., Biomedical Engineering student at SRM Institute of Science & Technology working at the intersection of healthcare technology, AI and machine learning.">
+  <meta name="author" content="Abinayavalli C.">
+  <title>Abinayavalli C. | Biomedical Engineering &amp; Healthcare Technology</title>
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Animated background elements -->
+  <div class="bg-canvas" aria-hidden="true">
+    <svg class="bg-svg" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice">
+      <path class="bg-line" d="M-50 200 C 150 120, 300 280, 500 200 S 850 120, 1250 220" />
+      <path class="bg-line bg-line--alt" d="M-50 520 C 200 440, 380 600, 620 520 S 960 440, 1250 560" />
+      <path class="bg-line" d="M-50 360 C 120 300, 260 420, 460 360 S 780 300, 1250 380" />
+      <g class="bg-ecg">
+        <path d="M0 640 L120 640 L140 600 L160 680 L180 620 L200 640 L340 640 L360 600 L380 680 L400 620 L420 640 L560 640 L580 600 L600 680 L620 620 L640 640 L780 640 L800 600 L820 680 L840 620 L860 640 L1000 640 L1020 600 L1040 680 L1060 620 L1080 640 L1200 640" />
+      </g>
+      <circle class="bg-dot" cx="180" cy="160" r="4" />
+      <circle class="bg-dot bg-dot--alt" cx="980" cy="260" r="5" />
+      <circle class="bg-dot" cx="720" cy="120" r="3" />
+      <circle class="bg-dot bg-dot--alt" cx="300" cy="700" r="4" />
+    </svg>
+  </div>
+
+  <!-- Navigation -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="brand" aria-label="Back to top">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l2-5 3 10 2-5h7"/></svg>
+        </span>
+        <span class="brand-text">Abinayavalli<span class="brand-dot">.</span></span>
+      </a>
+
+      <nav class="nav-links" id="nav-links" aria-label="Primary navigation">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#research" class="nav-link">Research</a>
+        <a href="#experience" class="nav-link">Internship</a>
+        <a href="#certifications" class="nav-link">Certifications</a>
+        <a href="#activities" class="nav-link">Activities</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+  </header>
+
+  <main>
+
+    <!-- 1. HOME -->
+    <section id="home" class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <p class="eyebrow">Hello, I'm</p>
+          <h1 class="hero-title">Abinayavalli <span class="accent">C.</span></h1>
+          <p class="hero-headline">Biomedical Engineering Student | Healthcare Technology | AI &amp; Machine Learning Enthusiast</p>
+          <p class="hero-tagline">"Bridging Healthcare and Technology Through Innovation."</p>
+          <p class="hero-intro">
+            I'm a final-year Biomedical Engineering student building technology-driven solutions for real-world healthcare challenges. My work spans biomedical instrumentation, wearable sensing, and machine learning applied to clinical problems.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal" style="--delay: 0.15s">
+          <div class="profile-frame">
+            <div class="profile-ring" aria-hidden="true"></div>
+            <!-- Replace assets/images/profile.jpg with your own photograph -->
+            <img src="assets/images/profile-placeholder.svg" alt="Profile photograph of Abinayavalli C." class="profile-img" width="420" height="420">
+          </div>
+          <div class="floating-chip chip-1">
+            <span class="chip-icon">&#9829;</span> Healthcare Tech
+          </div>
+          <div class="floating-chip chip-2">
+            <span class="chip-icon">&#9881;</span> Biomedical Instrumentation
+          </div>
+          <div class="floating-chip chip-3">
+            <span class="chip-icon">&#10024;</span> AI &amp; ML
+          </div>
+        </div>
+      </div>
+      <a href="#about" class="scroll-cue" aria-label="Scroll to About section">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- 2. ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <header class="section-header reveal">
+          <p class="section-eyebrow">01 &middot; About Me</p>
+          <h2 class="section-title">Engineering at the intersection of care and code</h2>
+        </header>
+
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>
+              I am pursuing a B.Tech in Biomedical Engineering at SRM Institute of Science &amp; Technology, Kattankulathur, with a CGPA of 9.19/10 through the sixth semester. I expect to graduate in 2027.
+            </p>
+            <p>
+              My interest lies in designing devices and systems that make healthcare more accessible, measurable and responsive. I work across biomedical instrumentation, biosensors and medical devices, and I am increasingly drawn to applying artificial intelligence and machine learning to clinical data and patient monitoring.
+            </p>
+            <p>
+              Alongside engineering design, I am interested in the parts of medical technology that make devices trustworthy: quality assurance, design verification and validation, and regulatory awareness.
+            </p>
+          </div>
+
+          <div class="interest-grid reveal" style="--delay: 0.1s">
+            <h3 class="interest-heading">Areas of interest</h3>
+            <ul class="interest-list">
+              <li><span class="interest-icon">&#9889;</span>Biomedical Instrumentation</li>
+              <li><span class="interest-icon">&#129657;</span>Medical Devices</li>
+              <li><span class="interest-icon">&#128300;</span>Biosensors</li>
+              <li><span class="interest-icon">&#129504;</span>AI in Healthcare</li>
+              <li><span class="interest-icon">&#128202;</span>Machine Learning</li>
+              <li><span class="interest-icon">&#9855;</span>Rehabilitation Engineering</li>
+              <li><span class="interest-icon">&#9989;</span>Quality Assurance</li>
+              <li><span class="interest-icon">&#128203;</span>Design Verification &amp; Validation</li>
+              <li><span class="interest-icon">&#128137;</span>Healthcare Technology</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. EDUCATION -->
+    <section id="education" class="section section-alt">
+      <div class="container">
+        <header class="section-header reveal">
+          <p class="section-eyebrow">02 &middot; Education</p>
+          <h2 class="section-title">Academic journey</h2>
+        </header>
+
+        <ol class="timeline">
+          <li class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card card">
+              <span class="timeline-date">2023 &ndash; 2027</span>
+              <h3>B.Tech Biomedical Engineering</h3>
+              <p class="timeline-org">SRM Institute of Science &amp; Technology, Kattankulathur</p>
+              <span class="badge">CGPA 9.19 / 10</span>
+            </div>
+          </li>
+          <li class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card card">
+              <span class="timeline-date">Higher Secondary</span>
+              <h3>Vaani Matric Higher Secondary School</h3>
+              <span class="badge">90%</span>
+            </div>
+          </li>
+          <li class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card card">
+              <span class="timeline-date">Secondary Education</span>
+              <h3>M.J.R. Matriculation School</h3>
+              <span class="badge">99%</span>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- 4. TECHNICAL SKILLS -->
+    <section id="skills" class="section">
+      <div class="container">
+        <header class="section-header reveal">
+          <p class="section-eyebrow">03 &middot; Technical Skills</p>
+          <h2 class="section-title">Tools and technologies</h2>
+        </header>
+
+        <div class="skills-grid">
+          <article class="skill-card card reveal">
+            <div class="skill-icon">&lt;/&gt;</div>
+            <h3>Programming</h3>
+            <div class="tag-list">
+              <span class="tag">Python</span>
+            </div>
+          </article>
+
+          <article class="skill-card card reveal" style="--delay: 0.05s">
+            <div class="skill-icon">&#9881;</div>
+            <h3>Software</h3>
+            <div class="tag-list">
+              <span class="tag">Tinkercad</span>
+              <span class="tag">EasyEDA</span>
+              <span class="tag">Mysegmenter</span>
+              <span class="tag">Canva</span>
+              <span class="tag">Google Colab</span>
+              <span class="tag">AutoCAD</span>
+            </div>
+          </article>
+
+          <article class="skill-card card reveal" style="--delay: 0.1s">
+            <div class="skill-icon">&#128268;</div>
+            <h3>Hardware</h3>
+            <div class="tag-list">
+              <span class="tag">ESP32</span>
+              <span class="tag">Arduino</span>
+              <span class="tag">Flex Sensors</span>
+              <span class="tag">Force Sensitive Resistors (FSR)</span>
+            </div>
+          </article>
+
+          <article class="skill-card card reveal" style="--delay: 0.15s">
+            <div class="skill-icon">&#129516;</div>
+            <h3>Technical Interests</h3>
+            <div class="tag-list">
+              <span class="tag">Biomedical Instrumentation</span>
+              <span class="tag">Biosensors</span>
+              <span class="tag">Biomechanics</span>
+              <span class="tag">Quality Assurance</span>
+              <span class="tag">Regulatory Affairs</span>
+              <span class="tag">Medical Technology</span>
+            </div>
+          </article>
+
+          <article class="skill-card card reveal skill-card--wide" style="--delay: 0.2s">
+            <div class="skill-icon">&#129309;</div>
+            <h3>Soft Skills</h3>
+            <div class="tag-list">
+              <span class="tag">Communication</span>
+              <span class="tag">Adaptability</span>
+              <span class="tag">Teamwork</span>
+              <span class="tag">Leadership</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. PROJECTS -->
+    <section id="projects" class="section section-alt">
+      <div class="container">
+        <header class="section-header reveal">
+          <p class="section-eyebrow">04 &middot; Projects</p>
+          <h2 class="section-title">Selected projects</h2>
+        </header>
+
+        <div class="projects-grid">
+
+          <!-- Project 1 -->
+          <article class="project-card card reveal">
+            <div class="project-media">
+              <img src="assets/images/project-sleeve.png" alt="Adaptive writing assistive sleeve with sensors, ESP32 and servo motors" loading="lazy">
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Adaptive Writing Assistive Sleeve for Real-Time Finger Force and Wrist Motion Support</h3>
+              <p class="project-desc">
+                A wearable assistive sleeve for real-time finger force monitoring and wrist motion support during handwriting. Integrates flex sensors, force sensitive resistors, an MPU6050 IMU, ESP32 and servo motors, with a Random Forest model for detecting handwriting imbalance.
+              </p>
+              <div class="tag-list">
+                <span class="tag">ESP32</span>
+                <span class="tag">Flex Sensors</span>
+                <span class="tag">FSR</span>
+                <span class="tag">MPU6050 IMU</span>
+                <span class="tag">Servo Motors</span>
+                <span class="tag">Random Forest</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card card reveal featured-project">
+            <div class="project-media">
+              <img src="assets/images/project-mediscan.png" alt="MediScan AI symptom-based disease predictor interface" loading="lazy">
+            </div>
+            <div class="project-body">
+              <span class="project-flag">Featured</span>
+              <h3 class="project-title">MediScan AI &ndash; Machine Learning-Based Disease Prediction System</h3>
+              <p class="project-desc">
+                A web-based healthcare application built on a trained Multi-Layer Perceptron (MLP) model. Users select symptoms and receive predicted diseases along with relevant descriptions and precautions.
+              </p>
+              <div class="tag-list">
+                <span class="tag">Python</span>
+                <span class="tag">Machine Learning</span>
+                <span class="tag">MLP</span>
+                <span class="tag">Flask</span>
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">CSV Datasets</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://abinayavalli2608.pythonanywhere.com/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">View Live Project</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card card reveal">
+            <div class="project-media">
+              <img src="assets/images/project-mediroute.png" alt="MediRoute India AI-powered healthcare navigator homepage" loading="lazy">
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">MediRoute India &ndash; AI-Powered Healthcare Navigator &amp; Cost Estimator</h3>
+              <p class="project-desc">
+                An AI-powered decision support platform that converts patient queries into structured clinical pathways, hospital recommendations and cost estimates. Integrates Groq Llama 3.3 70B with ICD-10 and SNOMED-CT clinical mapping and healthcare coverage insights.
+              </p>
+              <div class="tag-list">
+                <span class="tag">Groq</span>
+                <span class="tag">Llama 3.3 70B</span>
+                <span class="tag">ICD-10</span>
+                <span class="tag">SNOMED-CT</span>
+                <span class="tag">AI</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://naseeya.github.io/MediRoute-INDIA" class="btn btn-primary" target="_blank" rel="noopener noreferrer">View Live Project</a>
+                <a href="https://github.com/naseeya/MediRoute-INDIA" class="btn btn-ghost" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="project-card card reveal">
+            <div class="project-media">
+              <img src="assets/images/project-artificial-pancreas.png" alt="Prototype hardware for the non-invasive biosensor-integrated artificial pancreas" loading="lazy">
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Non-Invasive Biosensor-Integrated Artificial Pancreas System</h3>
+              <p class="project-desc">
+                A research prototype for smart diabetes management that integrates biosensors with intelligent insulin management. Published as a first-author paper in IEEE Xplore at ICOEI 2026.
+              </p>
+              <div class="tag-list">
+                <span class="tag">ESP32</span>
+                <span class="tag">Biosensors</span>
+                <span class="tag">Continuous Glucose Monitoring</span>
+                <span class="tag">Insulin Management</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://ieeexplore.ieee.org/document/11541757" class="btn btn-primary" target="_blank" rel="noopener noreferrer">View IEEE Publication</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. RESEARCH & PUBLICATIONS -->
+    <section id="research" class="section">
+      <div class="container">
+        <header class="section-header reveal">
+          <p class="section-eyebrow">05 &middot; Research &amp; Publications</p>
+          <h2 class="section-title">Published research</h2>
+        </header>
+
+        <article class="publication-card card reveal">
+          <div class="publication-badge">
+            <span class="ieee-mark">IEEE</span>
+            <span>First Author</span>
+          </div>
+          <h3 class="publication-title">Non-Invasive Biosensor-Integrated Artificial Pancreas System for Smart Management of Diabetes Mellitus</h3>
+          <p class="publication-venue">
+            Published in IEEE Xplore &middot; 9th International Conference on Trends in Electronics and Informatics (ICOEI 2026) &middot; IEEE Document Number: 11541757
+          </p>
+          <p class="publication-desc">
+            This research explores a non-invasive approach to diabetes management that integrates biosensors with an artificial pancreas framework. The system focuses on continuous glucose monitoring and intelligent insulin management, aiming to make glycaemic control more responsive and less dependent on invasive sampling.
+          </p>
+          <div class="publication-actions">
+            <a href="https://ieeexplore.ieee.org/document/11541757" class="btn btn-primary" target="_blank" rel="noopener noreferrer">View IEEE Publication</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- 7. INTERNSHIP -->
+    <section id="experience" class="section section-alt">
+      <div class="container">
+        <header class="section-header reveal">
+          <p class="section-eyebrow">06 &middot; Internship Experience</p>
+          <h2 class="section-title">Clinical engineering in practice</h2>
+        </header>
+
+        <div class="experience-card card reveal">
+          <div class="experience-header">
+            <div>
+              <h3>Biomedical Engineering Intern</h3>
+              <p class="experience-org">KAUVERY HOSPITAL &middot; Hosur, Tamil Nadu</p>
+            </div>
+            <span class="badge">December 9&ndash;31, 2024</span>
+          </div>
+          <ul class="experience-list">
+            <li>Biomedical equipment management</li>
+            <li>Preventive maintenance</li>
+            <li>Medical device inspection</li>
+            <li>Troubleshooting</li>
+            <li>Calibration procedures</li>
+            <li>Quality assurance</li>
+            <li>Patient monitoring systems</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. CERTIFICATIONS & ACHIEVEMENTS -->
+    <section id="certifications" class="section">
+      <div class="container">
+        <header class="section-header reveal">
+          <p class="section-eyebrow">07 &middot; Certifications &amp; Achievements</p>
+          <h2 class="section-title">Recognition and training</h2>
+        </header>
+
+        <div class="cert-grid">
+          <article class="cert-card card reveal">
+            <div class="cert-icon">&#127942;</div>
+            <h3>Certificate of Presentation</h3>
+            <p>ICOEI 2026</p>
+          </article>
+          <article class="cert-card card reveal" style="--delay: 0.05s">
+            <div class="cert-icon">&#128444;</div>
+            <h3>Certificate of Poster Presentation</h3>
+            <p>ICB Conference 2025</p>
+          </article>
+          <article class="cert-card card reveal" style="--delay: 0.1s">
+            <div class="cert-icon">&#11088;</div>
+            <h3>Certificate of Achievement</h3>
+            <p>Aakash Research Labs</p>
+          </article>
+          <article class="cert-card card reveal" style="--delay: 0.15s">
+            <div class="cert-icon">&#128218;</div>
+            <h3>Scientific Writing in Health Research</h3>
+            <p>ICMR-NIE</p>
+          </article>
+          <article class="cert-card card reveal" style="--delay: 0.2s">
+            <div class="cert-icon">&#128200;</div>
+            <h3>MATLAB Onramp</h3>
+            <p>MathWorks</p>
+          </article>
+          <article class="cert-card card reveal" style="--delay: 0.25s">
+            <div class="cert-icon">&#128161;</div>
+            <h3>Aakash Research Labs</h3>
+            <p>Electronics &amp; IoT and Healthcare domains</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. ACTIVITIES -->
+    <section id="activities" class="section section-alt">
+      <div class="container">
+        <header class="section-header reveal">
+          <p class="section-eyebrow">08 &middot; Activities</p>
+          <h2 class="section-title">Community and involvement</h2>
+        </header>
+
+        <article class="activity-card card reveal">
+          <div class="cert-icon">&#127979;</div>
+          <div>
+            <h3>BMESI &ndash; Membership Team Member</h3>
+            <p>Active member of the Biomedical Engineering Society of India team.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- 10. CONTACT -->
+    <section id="contact" class="section">
+      <div class="container contact-grid">
+        <div class="contact-info reveal">
+          <p class="section-eyebrow">09 &middot; Contact</p>
+          <h2 class="section-title">Let's build something meaningful</h2>
+          <p class="contact-lede">
+            Open to research collaborations, internships and conversations about healthcare technology. Reach out and I'll get back to you.
+          </p>
+          <ul class="contact-links">
+            <li>
+              <span class="contact-icon">&#9993;</span>
+              <a href="mailto:mail2abinayavalli@gmail.com">mail2abinayavalli@gmail.com</a>
+            </li>
+            <li>
+              <span class="contact-icon">in</span>
+              <a href="https://www.linkedin.com/in/abinayavalli-chellapandian-5a99b528a/" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
+            </li>
+          </ul>
+        </div>
+
+        <form class="contact-form card reveal" id="contact-form" novalidate>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required autocomplete="name">
+            <small class="form-error" id="name-error"></small>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required autocomplete="email">
+            <small class="form-error" id="email-error"></small>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="What would you like to discuss?" autocomplete="off">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your message" required></textarea>
+            <small class="form-error" id="message-error"></small>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Abinayavalli C. Built with HTML, CSS and JavaScript.</p>
+      <a href="#home" class="back-to-top" aria-label="Back to top">&uarr; Top</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
